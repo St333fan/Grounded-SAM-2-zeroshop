@@ -9,6 +9,12 @@
 │   └── obj_000003
 |       ...
 ```
+## Segment Objects
+Process Dataset
+```bash
+# in script set dataset path + image/mask extraction is set to 20 images per Video
+python process_real_object_dataset.py
+```
 
 # Original Git --> Grounded SAM 2: Ground and Track Anything in Videos
 
