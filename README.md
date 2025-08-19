@@ -1,7 +1,8 @@
 ## Generate a Dataset Structure
 
 ```bash
-# generate one video per object; start filming from the Front-View and circle the object twice; but the video file into obj_000001; new object = new video = new folder
+# generate one video per object; start filming from the Front-View and circle the object twice;
+# but the video file into obj_000001; new object = new video = new folder
 ├── Dataset
 │   ├── obj_000001
 │   ├── obj_000002
