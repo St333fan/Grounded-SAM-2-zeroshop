@@ -1,4 +1,15 @@
-# Grounded SAM 2: Ground and Track Anything in Videos
+## Generate a Dataset Structure
+
+```bash
+# generate one video per object; start filming from the Front-View and circle the object twice; but the video file into obj_000001; new object = new video = new folder
+├── Dataset
+│   ├── obj_000001
+│   ├── obj_000002
+│   └── obj_000003
+|       ...
+```
+
+# Original Git --> Grounded SAM 2: Ground and Track Anything in Videos
 
 **[IDEA-Research](https://github.com/idea-research)**
 
