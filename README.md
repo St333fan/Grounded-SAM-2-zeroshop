@@ -1,5 +1,17 @@
+## Setup
+```bash
+# Setup Docker
+cd Grounded-SAM-2-zeroshop
+make build-image
+make run
+# Download checkpoints SAM
+cd checkpoints
+bash download_ckpts.sh
+# Download checkpoints Dino
+cd gdino_checkpoints
+bash download_ckpts.sh
+```
 ## Generate a Dataset Structure
-
 ```bash
 # generate one video per object; start filming from the Front-View and circle the object twice;
 # but the video file into obj_000001; new object = new video = new folder
