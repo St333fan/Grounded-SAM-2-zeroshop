@@ -20,6 +20,16 @@ bash download_ckpts.sh
 │   ├── obj_000002
 │   └── obj_000003
 |       ...
+# example for object structure with metric depth estimation data, place the 4 secene images under a images folder in a scene folder; after processsing scene information can be found under output
+├── obj_000007
+│   ├── scene
+│   │   ├── images
+│   │   │   ├── IMG_20250825_100257.jpg
+│   │   │   ├── IMG_20250825_100301.jpg
+│   │   │   ├── IMG_20250825_100308.jpg
+│   │   │   └── IMG_20250825_100315.jpg
+│   │   └── output
+│   └── VID_20250912_171042.mp4
 ```
 ## Segment Objects
 Process Dataset
