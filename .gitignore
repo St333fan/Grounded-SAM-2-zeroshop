@@ -144,4 +144,10 @@ dmypy.json
 *.pth
 outputs/
 
-.idea/
+.idea/Grounded-SAM-2
+
+torch_cache/
+checkpoints/sam2.1_hiera_base_plus.pt.1
+checkpoints/sam2.1_hiera_large.pt.1
+checkpoints/sam2.1_hiera_small.pt.1
+checkpoints/sam2.1_hiera_tiny.pt.1

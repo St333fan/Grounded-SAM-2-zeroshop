@@ -1,0 +1,8 @@
+# Ignore all files in this directory
+*
+
+# Except the download script
+!download_ckpts.sh
+
+# And don't ignore this gitignore file itself
+!.gitingore
